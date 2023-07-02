@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- CDN Toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <title>Document</title>
+
+
+
+
+<!-- agrego css bootstrap al head -->
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+rel="stylesheet"
+integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+crossorigin="anonymous"/>
+
+</head>
+
+
+
+
+<body>
+
+<!-- navbar con bootstrap - con menu hamburguesa-->
+<nav class="navbar navbar-expand-sm bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <div class="logo">
+          <img
+            src="img/img/favicon.png"
+            alt="logo"
+            height="100px"
+            width="100px"
+          />
+        </div>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+
+          <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+          <a class="nav-link" href="pages/contacto.html">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!-- primer alfajor foto+texto -->
+  <div class="alfajor1">
+    <div class="alfajor1Foto">
+      <img
+        src="img/img/IMG_20221009_111007_1.jpg"
+        alt="alfajor 1"
+        width="100%"
+        height="100%"
+      />
+    </div>
+    <div class="alfajor1Texto">
+      <h3>Chocolates</h3>
+      <h5>$150</h5>
+      <button class="btn_comprar">comprar</button>
+    </div>
+  </div>
+
+  <!-- segundo alfajor foto+texto -->
+  <div class="alfajor2">
+    <div class="alfajor2Texto">
+      <h3>Maizena</h3>
+      <h5>$130</h5>
+<button class="btn_comprar">comprar</button>
+    </div>
+
+    <div class="alfajor2Foto">
+      <img
+        src="img/img/IMG_20210211_134149.jpg"
+        alt="alfajor 2"
+        width="100%"
+        height="100%"
+      />
+    </div>
+  </div>
+
+  <!-- tercer alfajor foto+texto -->
+  <div class="alfajor3">
+    <div class="alfajor3Foto">
+      <img
+        src="img/img/IMG_20210217_163921.jpg"
+        alt="alfajor 3"
+        width="100%"
+        height="100%"
+      />
+    </div>
+    <div class="alfajor3Texto">
+      <h3>Cacao 70%</h3>
+      <h5>$170</h5>
+      <button class="btn_comprar">comprar</button>
+    </div>
+  </div>
+
+
+
+
+  
+
+  <div class="Carrito">
+    <h3>Tu carrito de compras</h3>
+    <!-- TABLA: fotito, cantidad, precio, -->
+    <table>
+        <thead>
+            <th>Foto</th>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Cantidad</th>
+        </thead>
+        <tbody id = "tablaCarrito">
+        </tbody>
+    </table>
+    </div>
+
+
+
+<!-- CDN Toastify (antes del js nuestro) -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+<script src="index.js"></script>
+
+<!-- agrego js bootstrap al final del body -->
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+crossorigin="anonymous"
+></script>
+
+
+
+</body>
+</html>
